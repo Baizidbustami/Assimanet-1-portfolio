@@ -94,11 +94,8 @@ span{
     border-radius: 20px;
     font-family: Georgia, serif;
 }
-.vission:hover{
-    box-shadow: 10px 10px 25px slategray;
-    background-color:rgb(171, 164, 221);
-    color:white;
-}
+
+
 .goals{
     width:300px;
     box-shadow:8px 10px 20px gray;
