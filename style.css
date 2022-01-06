@@ -3,37 +3,16 @@ body{
     margin:0px;
     font-family: Georgia, serif;
 }
-h1 h2 h3{
-    font-family: Times New Roman;
-}
+  /*header-style*/
 
 #goal{
     color:hotpink;
-}
-.note{
-    text-align: justify;
-
-}
-.one-year-is-my-goal{
-    font-size: 30px;
-}
-#mission-note{
-    padding:15px;
-    text-align: justify;
-}
-#vission-note{
-    padding:15px;
-    text-align: justify;
-}
-#goals-note{
-    padding:15px;
-    text-align: justify;
 }
 
 span{
     color:hotpink;
 }
-.ao{
+.mission-content{
     display:flex;
 }
 .attentiv{
@@ -42,9 +21,11 @@ span{
     padding:20px 20px 20px 130px;
     font-size: 18px;
 }
+
 .header-line{
     border-left:4px solid hotpink; 
-    padding:0px 10px;  
+    padding:0px 10px; 
+    font-size: 28px; 
 }
 .first-img{
     width:300px;
@@ -64,8 +45,31 @@ span{
 }
 #btn:hover{
     background-color: tomato;
+}
+.note{
+    text-align: justify;
 
 }
+    /*main style*/
+    
+.one-year-is-my-goal{
+    font-size: 28px;
+    color:navy;
+}
+
+#mission-note{
+    padding:15px;
+    text-align: justify;
+}
+#vission-note{
+    padding:15px;
+    text-align: justify;
+}
+#goals-note{
+    padding:15px;
+    text-align: justify;
+}
+
 .one-year-is-my-goal{
     text-align: center;
     padding:20px;
@@ -90,14 +94,17 @@ span{
     border-radius: 20px;
     font-family: Georgia, serif;
 }
+.vission:hover{
+    box-shadow: 10px 10px 25px slategray;
+    background-color:rgb(171, 164, 221);
+    color:white;
+}
 .goals{
     width:300px;
     box-shadow:8px 10px 20px gray;
     background-color:rgb(207, 185, 166);
     border-radius: 20px;
     font-family: Georgia, serif;
-    
-
 }
 .first-section{
     display:flex;
@@ -105,7 +112,7 @@ span{
     padding:10px 80px 50px 130px;
 }
 
-
+   /*second-section-style*/
 
 .codding-img{
     width:330px;
@@ -116,44 +123,55 @@ span{
 }
 .codding{
     width:50%;
-    float: left;
-  
-    
+    float: left;   
 }
+
 .skill-develop{
     width:50%;
     float:right;
     padding-top:20px;
 }
-
+.skill-develop h1{
+    font-size: 28px;
+    color:indigo;
+}
+ /*therd-seacthion-style*/
 
 .therd-seaction{
     display:flex;
     padding:50px 80px 20px 130px;
 
     }
+.therd-seaction h1{
+    font-size: 26px;
+    
+    }
 .Necessary-things{
     width:60%;
     float:left;
     padding-right: 130px;
-
 }
+
 .research{
     width:40%;
     float:right;
 }
+
 .research-img{
-    width:400px;
-    
+    width:400px;   
 }
+
+   /*covid-19 application-style*/
 
 .covid-19{
     padding:50px 80px 20px 130px;
 }
+
 #covid-hd-line{
     text-align: center;
-    font-size: 35px;
+    font-size: 38px;
 }
+
 .covid-header{
     background-color:red;
     color:white;
@@ -217,18 +235,18 @@ hr{
     text-align: justify;
     font-size: 18px;
 }
-.dimo{
+#dimo{
     width:40%;
     float:right;
     padding-left: 50px;
 
 }
-.dimo a{
+#dimo a{
     text-decoration: none;
     font-size: 22px;
     color:black;
 }
-.dimo a:hover{
+#dimo a:hover{
     color:tomato;
 }
 ul,li{
@@ -250,6 +268,7 @@ label{
     box-shadow: 5px 5px 10px gray;
     width:200px;
     border-radius: 10px;
+    
 }
 .from-shodow{
     padding:10px;
@@ -258,6 +277,9 @@ label{
     text-align: center;
     color:orangered
 }
+
+    /*footer-style*/
+
 footer{
     padding:10px;
     text-align: center;
