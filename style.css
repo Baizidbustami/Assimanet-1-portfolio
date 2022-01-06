@@ -1,0 +1,270 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: Georgia, serif;
+}
+h1 h2 h3{
+    font-family: Times New Roman;
+}
+
+#goal{
+    color:hotpink;
+}
+.note{
+    text-align: justify;
+
+}
+.one-year-is-my-goal{
+    font-size: 30px;
+}
+#mission-note{
+    padding:15px;
+    text-align: justify;
+}
+#vission-note{
+    padding:15px;
+    text-align: justify;
+}
+#goals-note{
+    padding:15px;
+    text-align: justify;
+}
+
+span{
+    color:hotpink;
+}
+.ao{
+    display:flex;
+}
+.attentiv{
+    width:70%;
+    float:left;
+    padding:20px 20px 20px 130px;
+    font-size: 18px;
+}
+.header-line{
+    border-left:4px solid hotpink; 
+    padding:0px 10px;  
+}
+.first-img{
+    width:300px;
+    height:auto;
+}
+.header-img{
+    width:30%;
+    float:right;
+    padding:0px 40px;
+}
+#btn{
+    font-size: 18px;
+    background-color: teal;
+    padding:7px;
+    border-radius: 10px;
+    color:white;
+}
+#btn:hover{
+    background-color: tomato;
+
+}
+.one-year-is-my-goal{
+    text-align: center;
+    padding:20px;
+}
+.mission-img{
+    width:140px;
+
+}
+.mission{
+    width:300px;
+    box-shadow:8px 10px 20px gray;
+    background-color:rgb(201, 215, 219);
+    border-radius: 20px;
+    font-family: Georgia, serif;
+
+
+}
+.vission{
+    width:300px;
+    box-shadow:8px 10px 20px gray;
+    background-color:rgb(221, 221, 163);
+    border-radius: 20px;
+    font-family: Georgia, serif;
+}
+.goals{
+    width:300px;
+    box-shadow:8px 10px 20px gray;
+    background-color:rgb(207, 185, 166);
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    
+
+}
+.first-section{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 80px 50px 130px;
+}
+
+
+
+.codding-img{
+    width:330px;
+}
+.second-section{
+    display:flex;
+    padding:50px 80px 20px 130px;
+}
+.codding{
+    width:50%;
+    float: left;
+  
+    
+}
+.skill-develop{
+    width:50%;
+    float:right;
+    padding-top:20px;
+}
+
+
+.therd-seaction{
+    display:flex;
+    padding:50px 80px 20px 130px;
+
+    }
+.Necessary-things{
+    width:60%;
+    float:left;
+    padding-right: 130px;
+
+}
+.research{
+    width:40%;
+    float:right;
+}
+.research-img{
+    width:400px;
+    
+}
+
+.covid-19{
+    padding:50px 80px 20px 130px;
+}
+#covid-hd-line{
+    text-align: center;
+    font-size: 35px;
+}
+.covid-header{
+    background-color:red;
+    color:white;
+    float:left;
+    display:inline-block;
+    width:100%;
+    height:80px;
+    
+
+}
+
+#find{
+    text-decoration: none;
+    background-color:white;
+    color:red;
+    font-weight: 800;
+    font-size:25px;
+    float:right;
+    padding:10px;
+    border:solid;
+    text-align: center;
+
+}
+.find-help a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+.covid-span{
+    font-weight: 700;
+    font-size: 20px;
+}
+#covid-img{
+    width:100%;
+    height:400px;
+}
+.disease{
+    font-size: 20px;
+    font-family:Arial Black;
+    color:black;
+
+}
+.disease a{
+    text-decoration: none;
+    margin:0px 60px;
+}
+a:hover{
+    color:blue;
+}
+hr{
+   border: solid teal 3px;
+   float: left;
+   width:100%;
+}
+.advice{
+    display:flex;
+}
+#parent{
+    width:60%;
+    float:left;
+    text-align: justify;
+    font-size: 18px;
+}
+.dimo{
+    width:40%;
+    float:right;
+    padding-left: 50px;
+
+}
+.dimo a{
+    text-decoration: none;
+    font-size: 22px;
+    color:black;
+}
+.dimo a:hover{
+    color:tomato;
+}
+ul,li{
+    font-size: 20px;
+    font-family:Bahnschrift SemiBold;
+    padding:8px;
+    color:teal;
+    
+}
+#text{
+    padding:5px;
+    box-shadow: 1px 1px 1px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+.form{
+    box-shadow: 5px 5px 10px gray;
+    width:200px;
+    border-radius: 10px;
+}
+.from-shodow{
+    padding:10px;
+}
+.from-shodow h1{
+    text-align: center;
+    color:orangered
+}
+footer{
+    padding:10px;
+    text-align: center;
+    background-color:black;
+    color:white;
+    margin:10px 80px 10px 130px;
+}
+footer h1{
+    font-family: Monotype Corsiva;
+}
