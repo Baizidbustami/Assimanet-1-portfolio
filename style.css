@@ -290,3 +290,97 @@ footer h1{
 .dimo-anchor{
     padding-bottom:55px;
 }
+@media screen and (max-width:600px) {
+    .mission-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .attentiv{
+        width:90%;
+        padding:0px;
+        margin:0px 2rem;
+        
+    }
+    .header-img{
+        width:100%;
+        padding:0px;
+        margin:0px 2rem;
+    }
+    .first-section{
+        flex-direction: column;
+        padding:0rem 2rem;
+        
+    }
+    .mission{
+        margin-bottom: 2rem;
+    }
+    .vission{
+        margin-bottom: 2rem;
+    }
+    .second-section{
+        flex-direction: column;
+        padding:0px;
+        margin:0px 0px;
+    }
+    .codding{
+        width:100%;  
+        padding:0px;
+        margin:3rem 2rem;
+    }
+    
+    .skill-develop{
+        width:100%;
+        padding:0px;
+        margin:0px 4rem 0px 2rem;
+        
+    }
+    .skill-develop p{
+        padding:0px;
+        margin-right: 3.5rem;
+        text-align: justify;
+    }
+    .therd-seaction{
+        display:flex;
+        flex-direction: column-reverse;
+        padding:0px;
+        margin:0px;
+    
+        }
+    .Necessary-things{
+        width:100%;
+        margin:1rem 2rem;
+       
+    }
+    .Necessary-things p{
+        margin-right:3.5rem;
+        text-align: justify;
+    }
+    
+    .research{
+        width:100%;
+        margin:1rem 2rem;
+    }
+    .covid-19{
+        padding:0;
+        margin:0rem 2rem;
+    }
+    .advice{
+        display:flex;
+        flex-direction: column;
+        padding:0px;
+        margin:0px;
+    }
+    #parent{
+        width:100%;
+        padding:0px;
+        margin:0rem 0rem;
+    }
+    #dimo{
+        width:100%;
+        padding:0px;
+        margin:0px;
+    
+    }
+   
+}
