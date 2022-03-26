@@ -1,4 +1,3 @@
 # Assimanet-1-portfolio
-#Pribet repo link
-cod hear to piblick repo
+piblick-rep-hear
 https://baizidbustami.github.io/Assimanet-1-portfolio/
